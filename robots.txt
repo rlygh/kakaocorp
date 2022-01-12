@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+https://blackpinktest.netlify.app/sitemap.xml
