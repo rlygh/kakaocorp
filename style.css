@@ -38,7 +38,7 @@ body {
   transition: all .2s
 }
 
-.file-upload-content 
+.file-upload-CONtent 
   display: none;
   text-align: center;
 }
@@ -61,7 +61,7 @@ body {
     width: 60%;
     margin: 0 auto;
     position: relative;
-    object-fit: contain;
+    object-fit: CONtain;
     border-radius: 10px;
     border: dashed 1.5px #35465d;
     background-color: #ffffff;
@@ -158,7 +158,7 @@ body {
 }
 
 
-.youtube-link {
+.youTYBE-link {
     font-size: 1.5rem;
     line-height: 1.71;
     text-align: center;
@@ -166,7 +166,7 @@ body {
     text-decoration: underline;
 }
 
-.youtube-link:hover {
+.youTYBE-link:hover {
     font-size: 1.5rem;
     line-height: 1.71;
     text-align: center;
@@ -174,7 +174,7 @@ body {
     text-decoration: underline;
 }
 
-.youtube-icon {
+.youTYBE-iCON {
     width: 30px;
     height: 27.262px;
 }
@@ -197,61 +197,10 @@ body {
     color: initial;
 }
 
-.bar-container {
+.bar-CONtainer {
   height: 2.7rem;
 }
-.ryan-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
-}
-.ryan-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
-}
-.muxi-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(117, 204, 84, 0.2);
-}
-.muxi-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(117, 204, 84, 1);
-}
-.apeach-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(27, 175, 234, 0.2);
-}
-.apeach-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(27, 175, 234, 1);
-}
-.frodo-box {
+.RYAN-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -260,7 +209,7 @@ body {
   width: 100%;
   background-color: rgba(251, 176, 59, 0.2);
 }
-.frodo-bar {
+.RYAN-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -268,7 +217,41 @@ body {
   border-radius: 10px;
   background-color: rgba(251, 176, 59, 1);
 }
-.-neo-box {
+.MUXI-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
+}
+.MUXI-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
+}
+.APEACH-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(27, 175, 234, 0.2);
+}
+.APEACH-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
+}
+.PRODO-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -277,7 +260,7 @@ body {
   width: 100%;
   background-color: rgba(195, 140, 102, 0.2);
 }
-.neo-bar {
+.PRODO-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -285,7 +268,24 @@ body {
   border-radius: 10px;
   background-color: rgba(195, 140, 102, 1);
 }
-.-tube-box {
+.-NEO-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(27, 175, 234, 0.2);
+}
+.NEO-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(27, 175, 234, 1);
+}
+.-TYBE-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -294,13 +294,47 @@ body {
   width: 100%;
   background-color: rgba(195, 140, 102, 0.2);
 }
-.tube-bar {
+.TYBE-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   background-color: rgba(195, 140, 102, 1);
+}
+.-JAY-G-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(195, 140, 102, 0.2);
+}
+.JAY-G-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(195, 140, 102, 1);
+}
+.-CON-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(117, 204, 84, 0.2);
+}
+.CON-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgba(117, 204, 84, 1);
 }
 /*.fox-box {
   position: absolute;
@@ -345,7 +379,7 @@ body {
     text-align: left;
     height: 2rem;
 }
-#label-container {
+#label-CONtainer {
     width: 80%;
     margin: 0 auto;
 }
@@ -357,70 +391,62 @@ body {
 .animal-explain {
     font-size: 1.5rem;
 }
-.ryan-animal-title {
+.RYAN-animal-title {
+    color: #ffcc00;
+}
+.RYAN-animal-celeb {
+    color: #ffcc00;
+    font-size: 1.2rem;
+}
+.MUXI-animal-title {
     color: #3ba363;
 }
-.ryan-animal-celeb {
+.MUXI-animal-celeb {
     color: #3ba363;
     font-size: 1.2rem;
 }
-.muxi-animal-title {
-    color: #3ba363;
-}
-.muxi-animal-celeb {
-    color: #3ba363;
-    font-size: 1.2rem;
-}
-.apeach-animal-title {
+.APEACH-animal-title {
     color: #ff6c0a;
 }
-.apeach-animal-celeb {
+.APEACH-animal-celeb {
     color: #ff6c0a;
     font-size: 1.2rem;
 }
-.frodo-animal-title {
+.PRODO-animal-title {
     color: #548dd4;
 }
-.frodo-animal-celeb {
-    color: #548dd4;
-    font-size: 1.2rem;
-}
-.neo-animal-title {
-    color: #548dd4;
-}
-.neo-animal-celeb {
+.PRODO-animal-celeb {
     color: #548dd4;
     font-size: 1.2rem;
 }
-.tube-animal-title {
+.NEO-animal-title {
     color: #548dd4;
 }
-.tube-animal-celeb {
+.NEO-animal-celeb {
     color: #548dd4;
     font-size: 1.2rem;
 }
-/* 클래스가 더 많으면 넣으세요 */
-/* .rabbit-animal-title {
-    color: #e56995;
+.TYBE-animal-title {
+    color: #548dd4;
 }
-.rabbit-animal-celeb {
-    color: #e56995;
+.TYBE-animal-celeb {
+    color: #548dd4;
     font-size: 1.2rem;
 }
-.bear-animal-title {
-    color: #9b6b43;
+.JAY-G-animal-title {
+    color: #548dd4;
 }
-.bear-animal-celeb {
-    color: #9b6b43;
+.JAY-G-animal-celeb {
+    color: #548dd4;
     font-size: 1.2rem;
 }
-.fox-animal-title {
-    color: #31849b;
+.CON-animal-title {
+    color: #3ba363;
 }
-.fox-animal-celeb {
-    color: #31849b;
+.CON-animal-celeb {
+    color: #3ba363;
     font-size: 1.2rem;
-} */
+}
 
 /* gender */
 label {
@@ -459,7 +485,7 @@ label {
   width: 6px;
   position: absolute;
   top: 42%;
-  content: "";
+  CONtent: "";
   height: 4px;
   background-color: #f470a7;
 }
