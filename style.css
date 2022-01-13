@@ -251,7 +251,7 @@ body {
   border-radius: 10px;
   background-color: rgba(27, 175, 234, 1);
 }
-.PRODO-box {
+.FRODO-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -260,7 +260,7 @@ body {
   width: 100%;
   background-color: rgba(195, 140, 102, 0.2);
 }
-.PRODO-bar {
+.FRODO-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -268,7 +268,7 @@ body {
   border-radius: 10px;
   background-color: rgba(195, 140, 102, 1);
 }
-.-NEO-box {
+.NEO-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -285,7 +285,7 @@ body {
   border-radius: 10px;
   background-color: rgba(27, 175, 234, 1);
 }
-.-TYBE-box {
+.TYBE-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -302,7 +302,7 @@ body {
   border-radius: 10px;
   background-color: rgba(195, 140, 102, 1);
 }
-.-JAY-G-box {
+.JAY-G-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -319,7 +319,7 @@ body {
   border-radius: 10px;
   background-color: rgba(195, 140, 102, 1);
 }
-.-CON-box {
+.CON-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -412,10 +412,10 @@ body {
     color: #ff6c0a;
     font-size: 1.2rem;
 }
-.PRODO-animal-title {
+.FRODO-animal-title {
     color: #548dd4;
 }
-.PRODO-animal-celeb {
+.FRODO-animal-celeb {
     color: #548dd4;
     font-size: 1.2rem;
 }
