@@ -57,13 +57,13 @@
                         resultTitle = "무지"
                         resultExplain = "토끼로 분장한 단무지"
                         resultCeleb = " 호기심 많은 장난꾸러기"
-                        resultpic = "./m.PNG"
+                        resultpic = "./m.png"
                         break;
                     case "APEACH":
                         resultTitle = "어피치"
                         resultExplain = "복숭아나무를 탈출한 자웅동주"
                         resultCeleb = "사춘기를 맞은 개구쟁이"
-                        resultpic = "./a.PNG"
+                        resultpic = "./a.png"
                         break;
                     case "JAY-G":
                         resultTitle = "제이지"
@@ -71,7 +71,7 @@
                         resultCeleb = "미국의 힙합 뮤지션 제이지를 동경해 제이지로 개명"
                         resultpic = "./j.png"
                         break;
-                    case "FRODO":
+                    case "PRODO":
                         resultTitle = "프로도"
                         resultExplain = "부잣집 도시 개"
                         resultCeleb = "네오와 연애중"
@@ -87,13 +87,13 @@
                         resultTitle = "콘"
                         resultExplain = "작은 악어(처럼 생김)"
                         resultCeleb = "무지를 키워낸 존재"
-                        resultpic = "./CON.jpg"
+                        resultpic = "./c.png"
                         break;
                     case "TYBE":
                         resultTitle = "튜브"
                         resultExplain = "겁이 많고 소심한 오리"
                         resultCeleb = "매우 화나거나 겁을 먹으면 초록색의 미친 오리로 변신"
-                        resultpic = "./TYBE.jpg"
+                        resultpic = "./t.png"
                         break;    
                     default:
                         resultTitle = "알수없음"
@@ -107,7 +107,7 @@
             var celeb = "<div class='" + prediction[0].className + "-animal-celeb pt-2 pb-2'>" + resultCeleb + "</div>"
             var pic = "<img src='" + resultpic +"'width='60%' heigt='auto'>"
             $('.result-message').html(pic + title + explain + celeb );
-            console.log(pic);
+            console.log(prediction);
             var barWidth;
             
             for (let i = 0; i < maxPredictions; i++) {
@@ -132,7 +132,7 @@
                     case "JAY-G":
                         labelTitle = "제이지(JAY-G)"
                         break;
-                    case "FRODO":
+                    case "PRODO":
                         labelTitle = "프로도(FRODO)"
                         break;
                     case "NEO":
